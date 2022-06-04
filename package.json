@@ -7,6 +7,7 @@
   "author": "Elian Mariano <elianmarianogabriel@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "tsc && node dist/src/server.js",
     "dev": "ts-node-dev src/server.ts --respawn --transpileOnly",
     "test": "jest"
   },
