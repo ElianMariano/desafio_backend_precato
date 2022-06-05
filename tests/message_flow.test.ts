@@ -29,8 +29,6 @@ describe("Message flow", () => {
 
         expect(response.status).toBe(201);
         expect(response.body).toHaveProperty('id');
-        expect(response.body).toHaveProperty('template_name');
-        expect(response.body).toHaveProperty('position');
     })
 
     it("Should be able to update a message flow", async () => {

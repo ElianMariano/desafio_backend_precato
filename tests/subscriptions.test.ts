@@ -32,11 +32,6 @@ describe("Send subscription method", () => {
 
             expect(response.status).toBe(201);
             expect(response.body).toHaveProperty('id');
-            expect(response.body).toHaveProperty('subscription_date');
-            expect(response.body).toHaveProperty('name');
-            expect(response.body).toHaveProperty('email');
-            expect(response.body).toHaveProperty('last_message');
-            expect(response.body).toHaveProperty('active');
     })
 
     it("Should be able to update a subscription resource", async () => {
